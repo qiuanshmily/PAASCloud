@@ -1,0 +1,9 @@
+server:
+  port: 8761
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root

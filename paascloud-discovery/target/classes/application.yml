@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: 'paascloud-discovery'
+  rabbitmq:
+    host: paascloud-mq-rabbit
+    port: 5672
+    username: guest
+    password: guest
+  boot:
+    admin:
+      username: admin
+      password: admin
+
+security:
+  user:
+    name: admin
+    password: admin
+
+info:
+  平台: SpringCloud企业级分布式微服务平台

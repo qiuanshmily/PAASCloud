@@ -1,0 +1,50 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.idea
+
+### IntelliJ IDEA ###
+logs
+.idea
+*.iws
+*.iml
+*.ipr
+log.*
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+target/classes/config.properties
+target/classes/generator/generatorConfig-A.xml
+target/classes/generator/generatorConfig-B.xml
+target/classes/mapper/MdcAddressMapper.xml
+target/classes/mapper/MdcDictMapper.xml
+target/classes/mapper/MdcExceptionLogMapper.xml
+target/classes/mapper/MdcProductCategoryMapper.xml
+target/classes/mapper/MdcProductMapper.xml
+target/classes/mapper/TpcJobTaskMapper.xml
+target/classes/mapper/TpcMqConfirmMapper.xml
+target/classes/mapper/TpcMqConsumerMapper.xml
+target/classes/mapper/TpcMqMessageMapper.xml
+target/classes/mapper/TpcMqProducerMapper.xml
+target/classes/mapper/TpcMqSubscribeTagMapper.xml
+target/classes/mapper/TpcMqTagMapper.xml
+target/classes/mapper/TpcMqTopicMapper.xml
+target/classes/META-INF/spring-configuration-metadata.json
+target/classes/mysql.sql
